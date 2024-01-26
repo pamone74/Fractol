@@ -6,15 +6,14 @@
 /*   By: pamone <pamone@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/24 00:25:38 by pamone            #+#    #+#             */
-/*   Updated: 2024/01/24 01:43:33 by pamone           ###   ########.fr       */
+/*   Updated: 2024/01/26 21:16:01 by pamone           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FRACTAL_H
 # define FRACTAL_H
-# define WIDTH		800
-# define HEIGHT		800
-# define ITERATION	50
+# define WIDTH		1200
+# define HEIGHT		1200
 // COLORS
 # define COLOR_BLACK   0x000000 // RGB(0,0,0)
 # define COLOR_BLUE    0x0000FF // 
@@ -30,15 +29,12 @@
 # define HOT_PINK				0xFF66B2 // hot pink
 # define ELECTRIC_BLUE			0x0066FF // Radiant blue
 # define LAVA_RED				0xFF3300 // Bright molten red
-#define COLOR_INSIDE_PATTERN(i) (0x110000 * (i % 16) + 0x001100 * (i % 16) + 0x000011 * (i % 16))
 
 # include <stdlib.h>
 # include <string.h>
-# include <mlx.h>
-# include <stdio.h>
+# include "./mlx/mlx.h"
 # include <math.h>
-# include <X11/X.h>
-# include <X11/keysym.h>
+#include <stdio.h>
 # include <stdint.h>
 # include <unistd.h>
 

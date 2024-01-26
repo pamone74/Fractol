@@ -6,7 +6,7 @@
 /*   By: pamone <pamone@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/24 00:42:39 by pamone            #+#    #+#             */
-/*   Updated: 2024/01/24 00:44:09 by pamone           ###   ########.fr       */
+/*   Updated: 2024/01/26 21:14:26 by pamone           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,15 +38,6 @@ void	fractal_render(t_fractal *fractal)
 	}
 	mlx_put_image_to_window(fractal->mlx_init,
 		fractal->window, fractal->img.img_ptr, 0, 0);
-}
-
-void	ft_data_init(t_fractal *fractal)
-{
-	fractal->escape_value = 4;
-	fractal->iteration = 42;
-	fractal->shift_x = 0;
-	fractal->shift_y = 0;
-	fractal->zoom = 1.0;
 }
 
 void	my_pixel_put(int x, int y, t_image *img, int color)

@@ -1,6 +1,6 @@
 //#include "fractol.h"
 #include <stdio.h>
-#include <mlx.h>
+
 
 typedef struct s_complex{
     double real; // x axis on certesian plane
