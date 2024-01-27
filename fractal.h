@@ -6,7 +6,7 @@
 /*   By: pamone <pamone@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/24 00:25:38 by pamone            #+#    #+#             */
-/*   Updated: 2024/01/26 21:16:01 by pamone           ###   ########.fr       */
+/*   Updated: 2024/01/27 13:28:32 by pamone           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,10 +33,10 @@
 # include <stdlib.h>
 # include <string.h>
 # include "./mlx/mlx.h"
-# include <math.h>
-#include <stdio.h>
+# include <stdio.h>
 # include <stdint.h>
 # include <unistd.h>
+# include <limits.h>
 
 typedef struct s_image
 {
